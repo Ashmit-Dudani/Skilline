@@ -64,7 +64,33 @@
     animation-range: entry 0 cover 40%;
 }
 
+.feature1 .t1 img:hover{
+    scale: 1.1;
+    transition: 0.7s ease-in-out;
+    transform: rotate(-3deg);
+    
+}
 
+.feature1 .t2 img:hover{
+    scale: 1.1;
+    transition: 0.7s ease-in-out;
+    transform: rotate(3deg);
+    
+}
+
+.feature2 img:hover{
+    scale: 1.1;
+    transition: 0.7s ease-in-out;
+}
+.hero img:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+.everything img:hover{
+    scale: 1.1;
+    transition: 0.7s ease-in-out;
+}
 
 html {
     font-size: 16px;

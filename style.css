@@ -68,28 +68,38 @@
     scale: 1.1;
     transition: 0.7s ease-in-out;
     transform: rotate(-3deg);
-    
+    filter: drop-shadow(8px 8px 16px rgba(0,0,0,0.5));
 }
 
 .feature1 .t2 img:hover{
     scale: 1.1;
     transition: 0.7s ease-in-out;
     transform: rotate(3deg);
-    
+    filter: drop-shadow(8px 8px 16px #2F327D);
+}
+
+.feature1 .t3 img:hover{
+    scale: 1.1;
+    transition: 0.7s ease-in-out;
+    transform: rotate(-3deg);
+    filter: drop-shadow(8px 8px 16px #F48C06);
 }
 
 .feature2 img:hover{
     scale: 1.1;
     transition: 0.7s ease-in-out;
+    filter: drop-shadow(8px 8px 16px rgba(0,0,0,0.5))
 }
 .hero img:hover{
     scale: 1.1;
     transition: 0.5s ease-in-out;
+    filter: drop-shadow(8px 8px 16px rgba(0,0,0,0.5))
 }
 
 .everything img:hover{
     scale: 1.1;
     transition: 0.7s ease-in-out;
+    filter: drop-shadow(8px 8px 16px rgba(0,0,0,0.5))
 }
 
 html {

@@ -494,8 +494,7 @@ header {
     transition: 0.5s;
 }
 
-/* The rest of .feature2, .news, .n1, .foot, etc. is also converted but omitted here for brevity.
-Let me know if you'd like the rest pasted too. */
+
 .feature2 {
     display: flex;
     justify-content: space-evenly;
@@ -843,3 +842,4 @@ li{
     border-radius: 80px;
     cursor: pointer;
 }
+
